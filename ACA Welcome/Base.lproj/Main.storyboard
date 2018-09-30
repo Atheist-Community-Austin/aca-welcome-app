@@ -86,10 +86,44 @@
                     <view key="view" contentMode="scaleToFill" id="kcU-DX-kI9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="m8N-FY-tO4">
+                                <rect key="frame" x="37.5" y="94" width="300" height="77"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PY0-uC-Ebg" customClass="MDCTextField">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="next"/>
+                                        <connections>
+                                            <action selector="didChange:" destination="yOd-5a-C04" eventType="editingChanged" id="HcS-Of-OIf"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bl5-60-gRW" customClass="MDCTextField">
+                                        <rect key="frame" x="0.0" y="47" width="300" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="didChange:" destination="yOd-5a-C04" eventType="editingChanged" id="yVL-yH-Vf0"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" name="Off White"/>
+                        <constraints>
+                            <constraint firstItem="m8N-FY-tO4" firstAttribute="centerX" secondItem="kcU-DX-kI9" secondAttribute="centerX" id="B1u-IO-CQ1"/>
+                            <constraint firstItem="m8N-FY-tO4" firstAttribute="top" secondItem="opI-kD-bdk" secondAttribute="top" constant="30" id="RNS-V1-OoZ"/>
+                            <constraint firstItem="m8N-FY-tO4" firstAttribute="width" secondItem="opI-kD-bdk" secondAttribute="width" multiplier="0.8" id="ZWv-t0-fnu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="opI-kD-bdk"/>
                     </view>
                     <navigationItem key="navigationItem" title="Donate" id="lBJ-4V-1sm"/>
+                    <connections>
+                        <outlet property="donationAmountTextField" destination="PY0-uC-Ebg" id="W6E-by-Zqt"/>
+                        <outlet property="donatorTextField" destination="Bl5-60-gRW" id="xtB-f0-6td"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fS5-Gh-6RX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

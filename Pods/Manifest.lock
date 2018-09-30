@@ -1,4 +1,32 @@
 PODS:
+  - Braintree/Card (4.19.0):
+    - Braintree/Core
+  - Braintree/Core (4.19.0)
+  - Braintree/PaymentFlow (4.19.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.19.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.19.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.19.0)
+  - Braintree/UnionPay (4.19.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (6.4.1):
+    - BraintreeDropIn/DropIn (= 6.4.1)
+  - BraintreeDropIn/DropIn (6.4.1):
+    - Braintree/Card (~> 4.17)
+    - Braintree/Core (~> 4.17)
+    - Braintree/PaymentFlow (~> 4.17)
+    - Braintree/UnionPay (~> 4.17)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (6.4.1)
+  - CardIO (5.4.1)
   - Firebase/Core (5.8.1):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.1.4)
@@ -511,11 +539,16 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
+  - BraintreeDropIn
+  - CardIO
   - Firebase/Core
   - MaterialComponents
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Braintree
+    - BraintreeDropIn
+    - CardIO
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -531,6 +564,9 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
+  Braintree: 2982ea66c6ef4a22116a9f52210d54e3a9ae74b7
+  BraintreeDropIn: a098771978a60a6fa56837bbfa4754970ecc582a
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   Firebase: a870ed114d769b424021a0c8ddb0c86c3250a0c5
   FirebaseAnalytics: 361594968a84a04d9598ef0f2e769d3735cd03de
   FirebaseCore: 27bd80e5bfaaf9552a1f5cacb4c7e8bb925bab22
@@ -545,6 +581,6 @@ SPEC CHECKSUMS:
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: d8c3af7d2864b7122839feac28f071a303aa2840
+PODFILE CHECKSUM: 575d381d1b15fd6b2dc8214b667d4104299b2f9d
 
 COCOAPODS: 1.5.3
