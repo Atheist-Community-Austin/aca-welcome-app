@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF28578F21604F69005544AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28578E21604F69005544AA /* AppDelegate.swift */; };
+		EF28579121604F69005544AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28579021604F69005544AA /* ViewController.swift */; };
+		EF28579421604F69005544AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28579221604F69005544AA /* Main.storyboard */; };
+		EF28579621604F6C005544AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28579521604F6C005544AA /* Assets.xcassets */; };
+		EF28579921604F6C005544AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28579721604F6C005544AA /* LaunchScreen.storyboard */; };
+		EF2857A421604F6C005544AA /* ACA_WelcomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857A321604F6C005544AA /* ACA_WelcomeTests.swift */; };
+		EF2857AF21604F6C005544AA /* ACA_WelcomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857AE21604F6C005544AA /* ACA_WelcomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2857A021604F6C005544AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF28578321604F69005544AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF28578A21604F69005544AA;
+			remoteInfo = "ACA Welcome";
+		};
+		EF2857AB21604F6C005544AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF28578321604F69005544AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF28578A21604F69005544AA;
+			remoteInfo = "ACA Welcome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF28578B21604F69005544AA /* ACA Welcome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACA Welcome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF28578E21604F69005544AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF28579021604F69005544AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF28579321604F69005544AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF28579521604F6C005544AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF28579821604F6C005544AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF28579A21604F6C005544AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF28579F21604F6C005544AA /* ACA WelcomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACA WelcomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2857A321604F6C005544AA /* ACA_WelcomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACA_WelcomeTests.swift; sourceTree = "<group>"; };
+		EF2857A521604F6C005544AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2857AA21604F6C005544AA /* ACA WelcomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACA WelcomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2857AE21604F6C005544AA /* ACA_WelcomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACA_WelcomeUITests.swift; sourceTree = "<group>"; };
+		EF2857B021604F6C005544AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF28578821604F69005544AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28579C21604F6C005544AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2857A721604F6C005544AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF28578221604F69005544AA = {
+			isa = PBXGroup;
+			children = (
+				EF28578D21604F69005544AA /* ACA Welcome */,
+				EF2857A221604F6C005544AA /* ACA WelcomeTests */,
+				EF2857AD21604F6C005544AA /* ACA WelcomeUITests */,
+				EF28578C21604F69005544AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF28578C21604F69005544AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF28578B21604F69005544AA /* ACA Welcome.app */,
+				EF28579F21604F6C005544AA /* ACA WelcomeTests.xctest */,
+				EF2857AA21604F6C005544AA /* ACA WelcomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF28578D21604F69005544AA /* ACA Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				EF28578E21604F69005544AA /* AppDelegate.swift */,
+				EF28579021604F69005544AA /* ViewController.swift */,
+				EF28579221604F69005544AA /* Main.storyboard */,
+				EF28579521604F6C005544AA /* Assets.xcassets */,
+				EF28579721604F6C005544AA /* LaunchScreen.storyboard */,
+				EF28579A21604F6C005544AA /* Info.plist */,
+			);
+			path = "ACA Welcome";
+			sourceTree = "<group>";
+		};
+		EF2857A221604F6C005544AA /* ACA WelcomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2857A321604F6C005544AA /* ACA_WelcomeTests.swift */,
+				EF2857A521604F6C005544AA /* Info.plist */,
+			);
+			path = "ACA WelcomeTests";
+			sourceTree = "<group>";
+		};
+		EF2857AD21604F6C005544AA /* ACA WelcomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2857AE21604F6C005544AA /* ACA_WelcomeUITests.swift */,
+				EF2857B021604F6C005544AA /* Info.plist */,
+			);
+			path = "ACA WelcomeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF28578A21604F69005544AA /* ACA Welcome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2857B321604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA Welcome" */;
+			buildPhases = (
+				EF28578721604F69005544AA /* Sources */,
+				EF28578821604F69005544AA /* Frameworks */,
+				EF28578921604F69005544AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACA Welcome";
+			productName = "ACA Welcome";
+			productReference = EF28578B21604F69005544AA /* ACA Welcome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF28579E21604F6C005544AA /* ACA WelcomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2857B621604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA WelcomeTests" */;
+			buildPhases = (
+				EF28579B21604F6C005544AA /* Sources */,
+				EF28579C21604F6C005544AA /* Frameworks */,
+				EF28579D21604F6C005544AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2857A121604F6C005544AA /* PBXTargetDependency */,
+			);
+			name = "ACA WelcomeTests";
+			productName = "ACA WelcomeTests";
+			productReference = EF28579F21604F6C005544AA /* ACA WelcomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2857A921604F6C005544AA /* ACA WelcomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2857B921604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA WelcomeUITests" */;
+			buildPhases = (
+				EF2857A621604F6C005544AA /* Sources */,
+				EF2857A721604F6C005544AA /* Frameworks */,
+				EF2857A821604F6C005544AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2857AC21604F6C005544AA /* PBXTargetDependency */,
+			);
+			name = "ACA WelcomeUITests";
+			productName = "ACA WelcomeUITests";
+			productReference = EF2857AA21604F6C005544AA /* ACA WelcomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF28578321604F69005544AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shaun Hubbard";
+				TargetAttributes = {
+					EF28578A21604F69005544AA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EF28579E21604F6C005544AA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF28578A21604F69005544AA;
+					};
+					EF2857A921604F6C005544AA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF28578A21604F69005544AA;
+					};
+				};
+			};
+			buildConfigurationList = EF28578621604F69005544AA /* Build configuration list for PBXProject "ACA Welcome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF28578221604F69005544AA;
+			productRefGroup = EF28578C21604F69005544AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF28578A21604F69005544AA /* ACA Welcome */,
+				EF28579E21604F6C005544AA /* ACA WelcomeTests */,
+				EF2857A921604F6C005544AA /* ACA WelcomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF28578921604F69005544AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28579921604F6C005544AA /* LaunchScreen.storyboard in Resources */,
+				EF28579621604F6C005544AA /* Assets.xcassets in Resources */,
+				EF28579421604F69005544AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28579D21604F6C005544AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2857A821604F6C005544AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF28578721604F69005544AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28579121604F69005544AA /* ViewController.swift in Sources */,
+				EF28578F21604F69005544AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF28579B21604F6C005544AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2857A421604F6C005544AA /* ACA_WelcomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2857A621604F6C005544AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2857AF21604F6C005544AA /* ACA_WelcomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2857A121604F6C005544AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF28578A21604F69005544AA /* ACA Welcome */;
+			targetProxy = EF2857A021604F6C005544AA /* PBXContainerItemProxy */;
+		};
+		EF2857AC21604F6C005544AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF28578A21604F69005544AA /* ACA Welcome */;
+			targetProxy = EF2857AB21604F6C005544AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF28579221604F69005544AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF28579321604F69005544AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF28579721604F6C005544AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF28579821604F6C005544AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2857B121604F6C005544AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2857B221604F6C005544AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2857B421604F6C005544AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA Welcome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-Welcome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2857B521604F6C005544AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA Welcome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-Welcome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF2857B721604F6C005544AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA WelcomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-WelcomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACA Welcome.app/ACA Welcome";
+			};
+			name = Debug;
+		};
+		EF2857B821604F6C005544AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA WelcomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-WelcomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACA Welcome.app/ACA Welcome";
+			};
+			name = Release;
+		};
+		EF2857BA21604F6C005544AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA WelcomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-WelcomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ACA Welcome";
+			};
+			name = Debug;
+		};
+		EF2857BB21604F6C005544AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ59WCD7SF;
+				INFOPLIST_FILE = "ACA WelcomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.atheist-community.ACA-WelcomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ACA Welcome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF28578621604F69005544AA /* Build configuration list for PBXProject "ACA Welcome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2857B121604F6C005544AA /* Debug */,
+				EF2857B221604F6C005544AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2857B321604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA Welcome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2857B421604F6C005544AA /* Debug */,
+				EF2857B521604F6C005544AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2857B621604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA WelcomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2857B721604F6C005544AA /* Debug */,
+				EF2857B821604F6C005544AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2857B921604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA WelcomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2857BA21604F6C005544AA /* Debug */,
+				EF2857BB21604F6C005544AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF28578321604F69005544AA /* Project object */;
+}
