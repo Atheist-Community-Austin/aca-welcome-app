@@ -1,24 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="ACA_Welcome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jW4-k0-wNz">
+                                <rect key="frame" x="75" y="223.5" width="225" height="220"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrk-ez-aTw" customClass="MDCButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="66.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Donate">
+                                            <color key="titleColor" name="Atheist Blue"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BPT-17-jdO" kind="show" id="0Os-a7-PR2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxv-0o-gKe" customClass="MDCButton">
+                                        <rect key="frame" x="0.0" y="76.5" width="225" height="67"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Volunteer">
+                                            <color key="titleColor" name="Atheist Blue"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6g-VP-eoz" customClass="MDCButton">
+                                        <rect key="frame" x="0.0" y="153.5" width="225" height="66.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Join">
+                                            <color key="titleColor" name="Atheist Blue"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Lxv-0o-gKe" firstAttribute="height" secondItem="Hrk-ez-aTw" secondAttribute="height" id="CfG-d0-ZRE"/>
+                                    <constraint firstItem="O6g-VP-eoz" firstAttribute="height" secondItem="Hrk-ez-aTw" secondAttribute="height" id="Zgy-7F-E2e"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Atheist Community of Austin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzd-n3-Dlv">
+                                <rect key="frame" x="44.5" y="153.5" width="286" height="42.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" name="Off White"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Atheist Blue"/>
+                        <constraints>
+                            <constraint firstItem="Hrk-ez-aTw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="BEN-gt-piI"/>
+                            <constraint firstItem="jW4-k0-wNz" firstAttribute="top" secondItem="Kzd-n3-Dlv" secondAttribute="bottom" constant="27.5" id="FCC-Iy-6Dc"/>
+                            <constraint firstItem="jW4-k0-wNz" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.6" id="OZ9-Q3-qGs"/>
+                            <constraint firstItem="jW4-k0-wNz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PFQ-5e-py8"/>
+                            <constraint firstItem="Kzd-n3-Dlv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="WDw-hL-Kaa"/>
+                            <constraint firstItem="jW4-k0-wNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qYU-VN-9IM"/>
+                            <constraint firstItem="Kzd-n3-Dlv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sf1-u1-JoB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="donateButton" destination="Hrk-ez-aTw" id="azW-E5-MVL"/>
+                        <outlet property="joinButton" destination="O6g-VP-eoz" id="IOc-4e-L4p"/>
+                        <outlet property="volunteerButton" destination="Lxv-0o-gKe" id="j9B-5Q-8fF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Donate-->
+        <scene sceneID="4gl-I9-KKE">
+            <objects>
+                <viewController id="yOd-5a-C04" customClass="DonateViewController" customModule="ACA_Welcome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcU-DX-kI9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="Off White"/>
+                        <viewLayoutGuide key="safeArea" id="opI-kD-bdk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Donate" id="lBJ-4V-1sm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fS5-Gh-6RX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2268" y="-599.55022488755628"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LZz-si-gLX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BPT-17-jdO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1C2-Tm-uAR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Off White"/>
+                        <color key="barTintColor" name="Atheist Blue"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="Off White"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yOd-5a-C04" kind="relationship" relationship="rootViewController" id="VEj-Lq-6SW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iTH-8f-8QZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1328.8" y="-599.55022488755628"/>
+        </scene>
     </scenes>
+    <resources>
+        <namedColor name="Atheist Blue">
+            <color red="0.3411764705882353" green="0.44705882352941179" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Off White">
+            <color red="1" green="1" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Off White">
+            <color red="1" green="1" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

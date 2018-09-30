@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C195BB8B81828F9E0B3B0FAA /* Pods_ACA_Welcome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD56E2607D00E09B0B6B6F63 /* Pods_ACA_Welcome.framework */; };
 		EF28578F21604F69005544AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28578E21604F69005544AA /* AppDelegate.swift */; };
-		EF28579121604F69005544AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28579021604F69005544AA /* ViewController.swift */; };
+		EF28579121604F69005544AA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28579021604F69005544AA /* WelcomeViewController.swift */; };
 		EF28579421604F69005544AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28579221604F69005544AA /* Main.storyboard */; };
 		EF28579621604F6C005544AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28579521604F6C005544AA /* Assets.xcassets */; };
 		EF28579921604F6C005544AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28579721604F6C005544AA /* LaunchScreen.storyboard */; };
 		EF2857A421604F6C005544AA /* ACA_WelcomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857A321604F6C005544AA /* ACA_WelcomeTests.swift */; };
 		EF2857AF21604F6C005544AA /* ACA_WelcomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857AE21604F6C005544AA /* ACA_WelcomeUITests.swift */; };
+		EF2857BD21605A1B005544AA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857BC21605A1B005544AA /* Theme.swift */; };
+		EF2857BF21605D24005544AA /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857BE21605D24005544AA /* DonateViewController.swift */; };
+		EF2857C121605E26005544AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2857C021605E26005544AA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		476E28B1262DF0D4D2C5FCFA /* Pods-ACA Welcome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACA Welcome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACA Welcome/Pods-ACA Welcome.debug.xcconfig"; sourceTree = "<group>"; };
+		67E7B65176D5B8B214C458A5 /* Pods-ACA Welcome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACA Welcome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACA Welcome/Pods-ACA Welcome.release.xcconfig"; sourceTree = "<group>"; };
 		EF28578B21604F69005544AA /* ACA Welcome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACA Welcome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28578E21604F69005544AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF28579021604F69005544AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF28579021604F69005544AA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		EF28579321604F69005544AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF28579521604F6C005544AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF28579821604F6C005544AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		EF2857AA21604F6C005544AA /* ACA WelcomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACA WelcomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2857AE21604F6C005544AA /* ACA_WelcomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACA_WelcomeUITests.swift; sourceTree = "<group>"; };
 		EF2857B021604F6C005544AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2857BC21605A1B005544AA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EF2857BE21605D24005544AA /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		EF2857C021605E26005544AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD56E2607D00E09B0B6B6F63 /* Pods_ACA_Welcome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACA_Welcome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C195BB8B81828F9E0B3B0FAA /* Pods_ACA_Welcome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5F3EC0D28F03A88A122B9E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				476E28B1262DF0D4D2C5FCFA /* Pods-ACA Welcome.debug.xcconfig */,
+				67E7B65176D5B8B214C458A5 /* Pods-ACA Welcome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E217AA7706B3865842E77822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD56E2607D00E09B0B6B6F63 /* Pods_ACA_Welcome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF28578221604F69005544AA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				EF2857A221604F6C005544AA /* ACA WelcomeTests */,
 				EF2857AD21604F6C005544AA /* ACA WelcomeUITests */,
 				EF28578C21604F69005544AA /* Products */,
+				B5F3EC0D28F03A88A122B9E8 /* Pods */,
+				E217AA7706B3865842E77822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				EF28578E21604F69005544AA /* AppDelegate.swift */,
-				EF28579021604F69005544AA /* ViewController.swift */,
+				EF28579021604F69005544AA /* WelcomeViewController.swift */,
 				EF28579221604F69005544AA /* Main.storyboard */,
 				EF28579521604F6C005544AA /* Assets.xcassets */,
 				EF28579721604F6C005544AA /* LaunchScreen.storyboard */,
 				EF28579A21604F6C005544AA /* Info.plist */,
+				EF2857BC21605A1B005544AA /* Theme.swift */,
+				EF2857BE21605D24005544AA /* DonateViewController.swift */,
+				EF2857C021605E26005544AA /* GoogleService-Info.plist */,
 			);
 			path = "ACA Welcome";
 			sourceTree = "<group>";
@@ -132,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF2857B321604F6C005544AA /* Build configuration list for PBXNativeTarget "ACA Welcome" */;
 			buildPhases = (
+				FC1F1A0101B5471FC704E96C /* [CP] Check Pods Manifest.lock */,
 				EF28578721604F69005544AA /* Sources */,
 				EF28578821604F69005544AA /* Frameworks */,
 				EF28578921604F69005544AA /* Resources */,
+				9A7876CF7865D4C656713391 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF28579921604F6C005544AA /* LaunchScreen.storyboard in Resources */,
+				EF2857C121605E26005544AA /* GoogleService-Info.plist in Resources */,
 				EF28579621604F6C005544AA /* Assets.xcassets in Resources */,
 				EF28579421604F69005544AA /* Main.storyboard in Resources */,
 			);
@@ -251,13 +287,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A7876CF7865D4C656713391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ACA Welcome/Pods-ACA Welcome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ACA Welcome/Pods-ACA Welcome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1F1A0101B5471FC704E96C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACA Welcome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF28578721604F69005544AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF28579121604F69005544AA /* ViewController.swift in Sources */,
+				EF2857BD21605A1B005544AA /* Theme.swift in Sources */,
+				EF28579121604F69005544AA /* WelcomeViewController.swift in Sources */,
 				EF28578F21604F69005544AA /* AppDelegate.swift in Sources */,
+				EF2857BF21605D24005544AA /* DonateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +521,7 @@
 		};
 		EF2857B421604F6C005544AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476E28B1262DF0D4D2C5FCFA /* Pods-ACA Welcome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +540,7 @@
 		};
 		EF2857B521604F6C005544AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E7B65176D5B8B214C458A5 /* Pods-ACA Welcome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

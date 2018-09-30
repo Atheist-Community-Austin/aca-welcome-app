@@ -3,19 +3,19 @@
 //  ACA Welcome
 //
 //  Created by Shaun Hubbard on 9/29/18.
-//  Copyright © 2018 Shaun Hubbard. All rights reserved.
+//  Copyright © 2018 Atheist Community of Austin Inc. All rights reserved.
 //
 
 import UIKit
-
+import Firebase
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    FirebaseApp.configure()
     return true
   }
 
