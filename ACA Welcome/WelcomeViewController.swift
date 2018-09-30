@@ -8,11 +8,7 @@
 
 import UIKit
 import MaterialComponents
-final class WelcomeViewController: UIViewController {
-  override var preferredStatusBarStyle: UIStatusBarStyle {
-    return .lightContent
-  }
-
+final class WelcomeViewController: BaseViewController {
   @IBOutlet weak var donateButton: MDCButton!
   @IBOutlet weak var volunteerButton: MDCButton!
   @IBOutlet weak var joinButton: MDCButton!

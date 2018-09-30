@@ -18,6 +18,8 @@
 		EF2857BD21605A1B005544AA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857BC21605A1B005544AA /* Theme.swift */; };
 		EF2857BF21605D24005544AA /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857BE21605D24005544AA /* DonateViewController.swift */; };
 		EF2857C121605E26005544AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2857C021605E26005544AA /* GoogleService-Info.plist */; };
+		EF2857C32160619D005544AA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857C22160619D005544AA /* BaseViewController.swift */; };
+		EF2857C5216061E2005544AA /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2857C4216061E2005544AA /* BaseNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		EF2857BC21605A1B005544AA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		EF2857BE21605D24005544AA /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
 		EF2857C021605E26005544AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF2857C22160619D005544AA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EF2857C4216061E2005544AA /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
 		FD56E2607D00E09B0B6B6F63 /* Pods_ACA_Welcome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACA_Welcome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 				EF2857BC21605A1B005544AA /* Theme.swift */,
 				EF2857BE21605D24005544AA /* DonateViewController.swift */,
 				EF2857C021605E26005544AA /* GoogleService-Info.plist */,
+				EF2857C22160619D005544AA /* BaseViewController.swift */,
+				EF2857C4216061E2005544AA /* BaseNavigationViewController.swift */,
 			);
 			path = "ACA Welcome";
 			sourceTree = "<group>";
@@ -345,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2857C32160619D005544AA /* BaseViewController.swift in Sources */,
 				EF2857BD21605A1B005544AA /* Theme.swift in Sources */,
 				EF28579121604F69005544AA /* WelcomeViewController.swift in Sources */,
+				EF2857C5216061E2005544AA /* BaseNavigationViewController.swift in Sources */,
 				EF28578F21604F69005544AA /* AppDelegate.swift in Sources */,
 				EF2857BF21605D24005544AA /* DonateViewController.swift in Sources */,
 			);

@@ -16,7 +16,7 @@ struct FirebaseConstants {
   static let donateFinished = "donateFinished"
 }
 
-final class DonateViewController: UIViewController {
+final class DonateViewController: BaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     Analytics.logEvent(FirebaseConstants.donateStart, parameters: nil)
